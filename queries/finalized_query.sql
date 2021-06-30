@@ -1,5 +1,5 @@
 /* Grab the needed WARC data for distinct Yahoo News Japan articles crawled
-between February 2020 and May 2021. Sample 50% of the matches, limited to the first 100,000 articles. */
+between February 2020 and May 2021. Sample 50% of the matches, limited to the first 65,000 articles. */
 WITH all_partitions AS
     (SELECT DISTINCT(url),
          warc_filename,
